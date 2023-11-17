@@ -1,0 +1,46 @@
+/*인포바*/
+.info-bar {
+  /*class인용할때는 .붙임*/
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 5px 0 10px;
+  margin-bottom: 10px;
+}
+.info-bar__time {
+  font-size: 13px;
+  font-weight: bold;
+}
+.info-bar__icons img {
+  width: 15px;
+}
+/*메뉴바*/
+.menu-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu-bar__location {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 15px;
+  padding: 0 0 0 7px;
+}
+
+.menu-bar__location-icon img {
+  width: 15px;
+  padding-top: 5px;
+}
+
+.menu-bar__icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.menu-bar__icons img {
+  width: 20px;
+  margin-right: 8px;
+}
