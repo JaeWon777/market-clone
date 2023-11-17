@@ -5,7 +5,7 @@ body {
     sans-serif;
 }
 .media-info-msg {
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   width: 100vw;
@@ -14,10 +14,9 @@ body {
   justify-content: center;
   align-items: center;
   background-color: cornsilk;
-  opacity: 0;
 }
-@media screen and (min-width: 400px) {
+@media screen and (max-width: 400px) {
   .media-info-msg {
-    opacity: 1;
+    display: none;
   }
 }
